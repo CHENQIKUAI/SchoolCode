@@ -5,7 +5,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	unsigned int a = 256;
+	unsigned int a = 256 + 256 * 256 * 2 + 256 * 256 * 256 * 3;
 	printf("%p\n", &a);
 
 	printf("-------------\n");
