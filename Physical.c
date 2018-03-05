@@ -1,6 +1,7 @@
 //2018.3.5
 //Peter
 //The difference between mac and linux(or windows)
+//在mac和linux下会有相反的显示 这时由于其系统的物理层不同而造成的
 
 #include <stdio.h>
 int main(int argc, char const *argv[])
