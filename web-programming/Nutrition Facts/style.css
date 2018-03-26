@@ -1,0 +1,44 @@
+body {
+    width: 313px;
+    border: 1px solid #000;
+    padding-left: 5px;
+}
+
+.line1 {
+    border-bottom: 15px solid #000;
+}
+
+.line2 {
+    border-bottom: 2px solid #000;
+    position: relative;
+    /* left: 20px; */
+}
+
+.line3 {
+    border-bottom: 4px solid #000;
+}
+
+.fontwbold {
+    font-weight: bold;
+}
+.Fat{
+	position: absolute;
+	left: 124px;
+}
+.ToRight{
+	position: absolute;
+	font-weight: bold;
+	left: 290px;
+}
+
+.short{
+	font-size: 14px;
+}
+.less{
+	position: absolute;
+	left: 137px;
+}
+.weight{
+	position: absolute;
+	left: 268px;
+}
