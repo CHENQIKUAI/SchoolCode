@@ -1,0 +1,14 @@
+#tbl {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+tr {
+	height: 100px;
+}
+
+td {
+	width: 200px;
+	text-align: center;
+	border: 2px solid #000;
+}
