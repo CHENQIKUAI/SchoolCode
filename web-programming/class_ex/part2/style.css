@@ -1,0 +1,26 @@
+.div {
+	width: 400px;
+	height: 140px;
+	border: 1px solid #000;
+}
+
+.box {
+	background: #CFCFCF;
+	width: 120px;
+	height: 120px;
+	margin: 10px 10px 10px 10px;
+}
+
+.box1{
+	position: absolute;
+}
+
+.box2 {
+	position: absolute;
+	left: 140px;
+	
+}
+.box3 {
+	position: absolute;
+	left: 270px;
+}
