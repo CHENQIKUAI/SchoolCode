@@ -1,0 +1,12 @@
+.div2{
+	
+	width: 100px;
+	height: 100px;
+	background: #CFCFCF;
+	margin: 60px 200px 60px 200px;
+}
+.div1{
+	width: 500px;
+	height: 220px;
+	border: 1px solid black;
+}
