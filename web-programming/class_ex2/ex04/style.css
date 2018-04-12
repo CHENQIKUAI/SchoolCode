@@ -1,0 +1,28 @@
+.cnt {
+	float: left;
+	background: #66FF99;
+}
+
+/*.cnt:before {
+	width: 20px;
+	height: 20px;
+	background: #66FF99;
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 9px;
+}*/
+
+.cnt:after {
+	float: right;
+	content: "";
+	position: relative;
+	right: -40px;
+	top: -62px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid #66FF99;
+	border-bottom: 20px solid white;
+	border-top: 20px solid white;
+	border-right: 20px solid white
+}

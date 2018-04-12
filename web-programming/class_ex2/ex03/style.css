@@ -1,0 +1,11 @@
+.cnt {
+	border: 1px solid #666;
+	float: left;
+	display: inline;
+}
+
+.cnt:before {
+	float: left;
+	content: "开始日期:";
+	display: inline;
+}
