@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors peter (1779299572@qq.com)
+ * @date    2018-03-28 10:59:12
+ * @version $Id$
+ */
+.target{
+	font-size: 30px;
+}
+.github{
+	position: absolute;
+	margin-top: 100px;
+}

@@ -1,0 +1,123 @@
+.blank{
+	height: 20px;
+	background: #F1EFED;
+	border-top: 1px solid gray;
+	border-bottom:1px solid gray;
+}
+
+.head{
+	background: #00C2AF;
+	color: white;
+	/*height: 30px;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.head-middle{
+	border-radius: 5px;
+	background: #00A595;
+}
+
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+.ball-1{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #FF8905;
+}
+
+.ball-2{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #FF6640;
+}
+
+.ball-3{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #7089F6;
+}
+
+.ball-4{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #FF8905;
+}
+
+.ball-5{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #00CDF0;
+}
+
+.ball-6{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #FFBB53;
+}
+
+.ball-7{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #00CDF0;
+}
+
+.ball-8{
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	background: #FF8905;
+}
+
+.second-image{
+	padding: 5px;
+}
+
+.third-line{
+	padding:5px;
+}
+
+.third-left{
+	border-right: 1px solid gray;
+}
+
+.third-right-top{
+	border-bottom:1px solid gray;
+	justify-content: space-around;
+}
+
+.third-right-bottom-left{
+	border-right:1px solid gray;
+}
+
+.fourth{
+	margin-top: 20px;
+}
+
+.center{
+	justify-content: center;
+	align-items: center;
+}
+
+.center-2{
+	align-items: center;
+}
+
+.line{
+	border-top: 1px solid gray;
+}
+
+.content{
+	padding: 10px;
+	height: 106px;
+}
