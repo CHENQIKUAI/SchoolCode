@@ -1,0 +1,298 @@
+.head {
+}
+
+.cnt {
+	margin: 50px;
+}
+
+.head {
+	display: flex;
+	justify-content: flex-start;
+	width: 900px;
+}
+
+.head-way {
+	width: 100px;
+	height: 31px;
+	background: #248EC8;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-align: center;
+	color: white;
+}
+
+.head-way-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.head-time {
+	height: 20px;
+	width: 20px;
+	background: #FE5C0C;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.head-right {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.head-line-bottom {
+	width: 800px;
+	height: 5px;
+	background: #248EC8;
+}
+
+.mesg-total {
+	width: 900px;
+	height: 55px;
+	background: #FBFBFB;
+	border: 1px solid #C0C0C0;
+	border-bottom: 0px;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+span {
+}
+
+#color-red {
+	font-weight: bold;
+	color: red;
+}
+
+.mesg-print {
+	width: 900px;
+	display: flex;
+	justify-content: flex-end;
+	background: #FFFBDE;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 20px;
+	height: 20px;
+}
+
+.print {
+	display: flex;
+	margin-right: 10px;
+}
+
+.details {
+	display: flex;
+}
+
+.parameter {
+	display: flex;
+	width: 900px;
+	justify-content: flex-start;
+	color: #404040;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.parameter-line {
+	flex-grow: 2;
+	background: #CEDCE8;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.parameter-location {
+	width: 100px;
+	background: #CEDCE8;
+	margin-right: 5px;
+}
+
+.parameter-cost {
+	width: 100px;
+	background: #CEDCE8;
+	margin-right: 5px;
+}
+
+.parameter-cost-specific {
+	width: 100px;
+	background: #CEDCE8;
+	margin-right: 5px;
+}
+
+.parameter-distance {
+	width: 100px;
+	background: #CEDCE8;
+}
+
+.show-location-1 {
+	padding-top: 10px;
+	background: #F2F2F2;
+	width: 900px;
+	height: 45px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	border-left: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}
+
+.line {
+	width: 100px;
+}
+
+.time-spend {
+	width: 106px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name {
+	flex-grow: 2;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	width: 400px;
+	align-items: center;
+}
+
+.map a {
+	margin: 5px;
+}
+
+.map {
+	width: 290px;
+	display: flex;
+	align-items: center;
+}
+
+.space {
+	width: 100px;
+	border-left: 5px solid #C0C0C0;
+}
+
+.show-mesg-1 {
+	width: 900px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.show-mesg-1-left {
+	flex-grow: 2;
+	display: flex;
+}
+
+.time {
+	text-align: center;
+	width: 140px;
+}
+
+.railway {
+	height: 45px;
+	width: 8px;
+	background: #97C8D9;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.box-little {
+	width: 4px;
+	height: 10px;
+	margin: 3px;
+	background: #FFFFFF;
+}
+
+.towhere {
+	padding-top: 9px;
+	margin-left: 10px;
+}
+
+.time-top {
+	font-weight: bold;
+}
+
+.blue {
+	color: #1296db;
+}
+
+.towhere span {
+	font-weight: bold;
+}
+
+.towhere .where {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.money1 {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.money2 {
+	font-size: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.distance {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-location-2 {
+	width: 900px;
+	display: flex;
+	background: #F2F2F2;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}
+
+.show-location-2 .line {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blank {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.show-mesg-2 {
+	width: 900px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.green {
+	color: green;
+}
+
+.show-location-3 {
+	width: 900px;
+	display: flex;
+	background: #F2F2F2;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+}

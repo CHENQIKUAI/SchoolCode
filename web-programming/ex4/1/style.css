@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+.box {
+	width: 400px;
+	height: 636px;
+	border: 1px solid #c0c0c0;
+}
+
+.first {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.second {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.head-text {
+	margin: 0px 10px;
+}
+
+.third {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.white {
+	width: 16px;
+	height: 45px;
+	position: absolute;
+	background: white;
+}
+
+.white2 {
+	width: 13px;
+	height: 34px;
+	position: absolute;
+	left: 76px;
+	background: white;
+}
+
+.head {
+	width: 400px;
+	text-align: center;
+	font-size: 26px;
+	background: #EAEAEA;
+}
+
+.head-1 {
+	background: white;
+}
+
+.text1 {
+	position: relative;
+	width: 350px;
+	height: 35px;
+	left: 25px;
+	border: 1px solid black;
+}
+
+.second_box {
+	width: 90px;
+	height: 90px;
+	background: #ff4400;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+.second_text {
+	width: 255px;
+	height: 35px;	/*position: absolute;*/
+	left: 20px;
+	border: 1px solid #000;
+}
+
+.second_ptext {
+	position: relative;
+	top: -86px;
+	left: 121px
+}
+
+.second_pbutton {
+	position: relative;
+	top: -20px;
+	left: 20px;
+}
+
+.second_button {
+	color: #fff;
+	font-size: 20px;
+	background: #ff4400;
+	padding: 8px 25px;
+}
+
+.third_text {
+	width: 358px;
+	height: 35px;
+	left: 20px;
+	border: 1px solid #000;
+	position: relative;
+	top: 1px;
+}
+
+.fare {
+	width: 159px;
+	height: 174px;
+}
+
+.fare p {
+	position: relative;
+	left: 50px;
+}
+
+.littleBox {
+	width: 100px;
+	height: 100px;
+	background: #ff4400;
+}
+
+.line {
+	position: relative;
+	top: -548px;
+	width: 241px;
+	left: 160px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.line2 {
+	position: relative;
+	top: -768px;
+	width: 160px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.lastText {
+	font-size: 50px;
+}
+
+.iphone {
+	width: 86px;
+	height: 111px;
+	background: #ff4400;
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+.fourth_div {
+	width: 78px;
+	height: 150px;
+	border-left: 1px solid #c0c0c0;	/*background: blue;*/
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.p1 p {
+	position: relative;
+	left: 22px;
+}
+
+.p2 p {
+	position: relative;
+	left: 22px;
+}
+
+.p3 p {
+	position: relative;
+	left: 22px;
+}
+
+.p4 p {
+	position: relative;
+	left: 22px;
+}
+
+.p5 p {
+	position: relative;
+	left: 22px;
+}
+
+.p6 p {
+	position: relative;
+	left: 14px;
+}
+
+.orangebox {
+	width: 50px;
+	height: 50px;
+	background: #ff4400;
+}
+
+.fourth p {
+	margin-top: 10px;
+}
+
+.pp {
+	position: relative;
+	top: 10px;
+	left: 14px;
+}
+
+.p1 {
+	position: relative;
+	top: -174px;
+	left: 160px;
+}
+
+.p2 {
+	position: relative;
+	top: -325px;
+	left: 240px;
+}
+
+.p3 {
+	position: relative;
+	top: -476px;
+	left: 320px;
+}
+
+.p4 {
+	position: relative;
+	top: -557px;
+	left: 160px;
+}
+
+.p5 {
+	position: relative;
+	top: -653px;
+	left: 242px;
+}
+
+.p6 {
+	position: relative;
+	top: -749px;
+	left: 322px;
+}
+
+.lastbox {
+	width: 79px;
+	height: 74px;
+	border-right: 1px solid #ececec;
+}
+
+.lastbox:nth-child(1) {
+	position: relative;
+	top: -768px;
+}
+
+.lastbox:nth-child(2) {
+	position: relative;
+	top: -842px;
+	left: 81px;
+}
+
+.lastbox:nth-child(3) {
+	position: relative;
+	top: -915px;
+	left: 161px;
+}
+
+.lastbox:nth-child(4) {
+	position: relative;
+	top: -987px;
+	left: 241px;
+}
+
+.lastbox:nth-child(5) {
+	position: relative;
+	top: -1061px;
+	left: 322px;
+}
+
+.last p {
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+
+.orangebox{
+	position: relative;
+	left: 15px;
+	top: 9px;
+}

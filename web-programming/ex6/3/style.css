@@ -1,0 +1,99 @@
+body {
+	margin: 2px;
+	background: #F2F2F2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.goods{
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+
+
+.cnt1 {
+	width: calc(390px - 2px);
+	height: calc(260px - 2px);
+	border: 1px solid black;
+	border-bottom: 0px solid;
+	background: #FFFFEB;
+}
+
+.cnt2 {
+	width: 390px;
+	height: 110px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background: #FFE6F4;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.show1 {
+	width: 370px;
+	height: 20px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background: white;
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+.show2 {
+	width: 370px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background: white;
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.title-text{
+	font-size: 15px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.detail{
+	font-size: 15px;
+	margin-left: 10px;
+	color: #F83666;
+	font-weight: bold;
+}
+
+.real-price{
+	font-size: 20px;
+	color: #F83666;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.cost-price{
+	font-size: 13px;
+	text-decoration: line-through;
+	color: #A0A09F;
+}
+
+.blank{
+	flex-grow: 2;
+}
+
+.sales-volume{
+	font-size: 13px;
+	color: #FA6C8F;
+	font-weight: bold;
+}
+
+.sales{
+	font-size: 13px;
+	color: #A0A09F;
+}
+
+img{
+	width: 388px;
+	height: 258px;
+}
