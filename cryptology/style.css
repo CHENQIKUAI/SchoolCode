@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Peter kuai
+ * @date    2018-05-24 15:42:13
+ * @version $Id$
+ */
+
+ .row{
+ 	margin-bottom: 20px;
+ }
+
+
+ .container{
+ 	min-width: 500px;
+ }
