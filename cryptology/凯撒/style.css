@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+ .row{
+ 	margin-bottom: 20px;
+ }
+
+textarea{
+	height: 150px;
+}
