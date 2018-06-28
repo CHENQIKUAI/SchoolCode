@@ -1,60 +1,31 @@
-var key = Math.round(Math.random() * 100) + 1;
-$('#key-input:text').val(key);
 $('.encrypt').click(function () {
     var Plaintext = $('#m').val();
-    var ciphertext = encrypt(Plaintext, key);
-    console.log(ciphertext);
-
+    var ciphertext = e_des(Plaintext);
     $("#mm").val(ciphertext);
 });
 
-
 $('.decrypt').click(function () {
     var ciphertext = $('#mm').val();
-    var Plaintext = decrypt(ciphertext, key);
-    console.log(Plaintext);
-
+    var Plaintext = d_des(ciphertext);
     $("#m").val(Plaintext);
 });
 
-function encrypt(str, key) {
-    var result = '';
-    var code;
-    for (var i = 0; i < str.length; ++i) {
-        code = str[i].charCodeAt();
-        if (code < 127) {
-            result = result + String.fromCharCode((code - 32 + key) % (126 - 32 + 1) + 32);
-        } else {
-            result = result + String.fromCharCode(code + key);
-        }
 
-    }
-    return result;
+function e_des(str) {
+    var key1=$('.key1').val();
+    var key2=$('.key2').val();
+    var key3=$('.key3').val();
+    var enResult=strEnc(str,key1,key2,key3);
+    return enResult;
+}
+function d_des(str) {
+    var key1=$('.key1').val();
+    var key2=$('.key2').val();
+    var key3=$('.key3').val();
+    var deResult = strDec(str,key1,key2,key3);
+    return deResult;
 }
 
-
-function decrypt(str, key) {
-    var result = '';
-    var code;
-    for (var i = 0; i < str.length; ++i) {
-        code = str[i].charCodeAt();
-        if (code < 127) {
-            result = result + String.fromCharCode((code - 32 - key + 126 - 32 + 1) % (126 - 32 + 1) + 32);
-        } else {
-            result = result + String.fromCharCode(code - key);
-        }
-    }
-    return result;
-}
-
-
-$('.key-create').click(function () {
-    key = Math.round(Math.random() * 10) + 1;
-
-    $('#key-input:text').val(key);
-
-    console.log(key);
-})
 
 
 function copy(txt) {

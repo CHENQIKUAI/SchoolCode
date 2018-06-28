@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>加密</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <h1>加密小天地</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <button type="button" class="key-create btn btn-danger col-md-12">随机生成key</button>
+                </div>
+                <div class="col-md-2">
+                    <form action="">
+                        <input type="text" id="key-input" class="form-control">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <textarea type="text" name="m" id="m" class="form-control" placeholder="原文"></textarea>
+                </div>
+                <div class="col-md-4  row">
+                    <div class="col-md-6">
+                        <button type="button" class="encrypt btn col-md-12">encrypt</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" class="copy1 btn col-md-12">copy</button>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="file" class="form-control" onchange="jsReadFiles(this.files)">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-8">
+                    <textarea type="text" name="m" id="mm" class="form-control" placeholder="密文"></textarea>
+                </div>
+                <div class="col-md-4 row">
+                    <div class="col-md-6">
+                        <button type="button" class="decrypt btn col-md-12">decrypt</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" class="copy2 btn col-md-12">copy</button>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="file" class="form-control" onchange="jsReadFiles2(this.files)">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="p.jpg" class="rounded img-fluid" alt="Responsive image">
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>

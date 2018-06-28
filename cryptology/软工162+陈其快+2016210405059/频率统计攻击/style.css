@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+ .row{
+ 	margin-bottom: 20px;
+ }
+
+textarea{
+	height: 150px;
+}
+
+.show-array{
+	/* height: 200px; */
+	font-family:"Times New Roman",Georgia,Serif;
+	margin: 10px 0px 20px 0;
+	border:1px solid black;	
+}

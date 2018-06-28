@@ -1,60 +1,62 @@
-var key = Math.round(Math.random() * 100) + 1;
-$('#key-input:text').val(key);
 $('.encrypt').click(function () {
-    var Plaintext = $('#m').val();
-    var ciphertext = encrypt(Plaintext, key);
-    console.log(ciphertext);
+    var c = $('#m').val();
+    var arr = [];
 
-    $("#mm").val(ciphertext);
-});
-
-
-$('.decrypt').click(function () {
-    var ciphertext = $('#mm').val();
-    var Plaintext = decrypt(ciphertext, key);
-    console.log(Plaintext);
-
-    $("#m").val(Plaintext);
-});
-
-function encrypt(str, key) {
-    var result = '';
-    var code;
-    for (var i = 0; i < str.length; ++i) {
-        code = str[i].charCodeAt();
-        if (code < 127) {
-            result = result + String.fromCharCode((code - 32 + key) % (126 - 32 + 1) + 32);
-        } else {
-            result = result + String.fromCharCode(code + key);
+    for (var i = 0; i < c.length; ++i) {
+        var mark = 0;
+        for (var j = 0; j < arr.length; ++j) {
+            if (arr[j][0] == c[i]) {
+                arr[j][1]++;
+                mark = 1;
+                break;
+            }
         }
-
-    }
-    return result;
-}
-
-
-function decrypt(str, key) {
-    var result = '';
-    var code;
-    for (var i = 0; i < str.length; ++i) {
-        code = str[i].charCodeAt();
-        if (code < 127) {
-            result = result + String.fromCharCode((code - 32 - key + 126 - 32 + 1) % (126 - 32 + 1) + 32);
-        } else {
-            result = result + String.fromCharCode(code - key);
+        if (!mark) {
+            arr.push([c[i], 1]);
         }
     }
-    return result;
-}
+    arr.sort(function (x, y) {
+        return y[1] - x[1];
+    });
 
 
-$('.key-create').click(function () {
-    key = Math.round(Math.random() * 10) + 1;
+    var str_sort = '';
 
-    $('#key-input:text').val(key);
+    for (var i = 0; i < arr.length; ++i) {
+        arr[i][1] = arr[i][1] * 100 / c.length;
+        str_sort = str_sort + arr[i][0] + ' ' + arr[i][1].toFixed(1) + '%   ';
+    }
 
-    console.log(key);
+
+    console.log(str_sort);
+    $("#mm").val(c);
+
+
+
+    var $p = $('.show-array');
+    $p.html(str_sort);
+
+
+
+});
+
+$('#btn-change').click(() => {
+    var a = $('#input-changeA:text').val();
+    var b = $('#input-changeB:text').val();
+    var buttom = $('#mm').val();
+    var temp = '';
+    for (var i = 0; i < buttom.length; ++i) {
+        if (buttom[i] == a) {
+            temp += b;
+        } else {
+            temp += buttom[i];
+        }
+    }
+    console.log(temp);
+    $("#mm").val(temp);
 })
+
+
 
 
 function copy(txt) {
